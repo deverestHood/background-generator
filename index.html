@@ -7,12 +7,27 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="gradient">
-	<h1>Background Generator</h1>
-	<input class="color1" type="color" name="color1" value="#00FF00">
-	<input class="color2" type="color" name="color2" value="#FF0000">
-	<button id="random">Random</button>
-	<h2>Current CSS Background</h2>
-	<h3></h3>
-	<script type="text/javascript" src="script.js"></script>
+	<main>
+		<h1>Background Generator</h1>
+		<input class="color1" type="color" name="color1" value="#077da4">
+		<input class="color2" type="color" name="color2" value="#dde4d9">
+		<button id="random" role="button" title="Random">Random</button>
+		<h2>Current CSS Background</h2>
+		<!-- <div class="container">
+			<code class="language-css"></code>
+		</div> -->
+			<h3 id="copy-css"></h3>
+			<button class="btn" onclick="copyContent()">Copy</button>
+	</main>
+	<footer class="footer">
+		<div>
+			<img class="github-icon" src="./img/icons8-github-100.png" aria-hidden="true" alt="">
+		</div>
+		<div class="footer-text">
+			Made by <a href="https://github.com/deverestHood">@deverestHood</a>
+		</div>
+	  </footer>
+	
+	<script type="text/javascript" src="bundle.js"></script>
 </body>
 </html>
